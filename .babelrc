@@ -1,0 +1,14 @@
+{
+  "presets": ["es2015", "stage-2"],
+  "plugins": [
+    "syntax-async-functions",
+    "syntax-async-generators",
+    "transform-regenerator",
+    "transform-es2015-for-of",
+    ["transform-async-to-module-method", {
+       "module": "bluebird",
+       "method": "coroutine"
+       }
+    ]
+  ]
+ }

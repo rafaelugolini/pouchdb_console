@@ -1,0 +1,51 @@
+{
+  "name": "pouchdb_console",
+  "version": "0.0.1",
+  "description": "Tool to monitor changes on PouchDB database",
+  "license": "MIT",
+  "repository": "rafaelugolini/pouchdb_console",
+  "author": {
+    "name": "Rafael Ugolini",
+    "email": "rafael.ugolini@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "./node_modules/babel-cli/bin/babel-node.js pouchdb_console.js"
+  },
+  "keywords": [
+    "node",
+    "babel",
+    "pouchdb"
+  ],
+  "files": [
+    "dist/*",
+    "README.md",
+    "LICENCE",
+    "pouchdb_console.js"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-eslint": "*",
+    "babel-plugin-syntax-async-generators": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-async-to-module-method": "^6.7.0",
+    "babel-plugin-transform-regenerator": "^6.6.5",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-2": "^6.5.0",
+    "babel-tape-runner": "*",
+    "babelify": "7.3.0",
+    "eslint": "*",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.6.1",
+    "pouchdb": "^6.1.2"
+  }
+}
